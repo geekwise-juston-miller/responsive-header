@@ -27,19 +27,44 @@ span{
     transform: translateY(10rem);
     margin: 0 auto;
     padding: 0;
-    width: 90%;
-    height: auto;
+    width: 100%;
+    height: 100%;
     display: block;
-    border: solid 2rem red;
-     overflow: hidden;
     
 }
 
-img{
+#pic_size{
     margin: 0 auto;
     padding: 0;
-    width: calc(3008px/60%);
-    max-width: 100%;
+    width: calc(3008px/5);
+    height: auto;
     display: block;
-   
+    border: solid 2rem blue;
+}
+
+
+@media only screen and (min-width:300px) and (max-width:600px) {
+    #pic_size {
+    margin: 0 auto;
+    padding: 0;
+    width: calc(3008px/5);
+    height: auto;
+    display: block;
+    border: solid 2rem yellow;
+    transform: translateY(10rem);
+    }
+    
+}
+
+@media only screen and (min-width:601px) and (max-width:800px) {
+    #pic_size {
+    margin: 0 auto;
+    padding: 0;
+    width: calc(3008px/5);
+    height: auto;
+    display: block;
+    border: solid 2rem red;
+    transform: translateY(10rem);
+    }
+    
 }
