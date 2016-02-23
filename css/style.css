@@ -36,35 +36,48 @@ span{
 #pic_size{
     margin: 0 auto;
     padding: 0;
-    width: calc(3008px/5);
+    width: calc(3008px/3);
     height: auto;
     display: block;
     border: solid 2rem blue;
 }
 
 
-@media only screen and (min-width:300px) and (max-width:600px) {
+@media only screen and (min-width:1px) and (max-width:300px) {
     #pic_size {
     margin: 0 auto;
     padding: 0;
-    width: calc(3008px/5);
+    width: calc(3008px/12);
     height: auto;
     display: block;
     border: solid 2rem yellow;
-    transform: translateY(10rem);
+    transform: translateY (5rem);
     }
     
 }
 
-@media only screen and (min-width:601px) and (max-width:800px) {
+@media only screen and (min-width:301px) and (max-width:600px) {
     #pic_size {
     margin: 0 auto;
     padding: 0;
-    width: calc(3008px/5);
+    width: calc(3008px/9);
     height: auto;
     display: block;
     border: solid 2rem red;
-    transform: translateY(10rem);
+    transform: translateY (4rem);
+    }
+    
+}
+
+@media only screen and (min-width:601px) and (max-width:900px) {
+    #pic_size {
+    margin: 0 auto;
+    padding: 0;
+    width: calc(3008px/6);
+    height: auto;
+    display: block;
+    border: solid 2rem limegreen;
+    transform: translateY (4rem);
     }
     
 }
